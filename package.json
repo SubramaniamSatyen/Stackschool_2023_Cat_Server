@@ -1,0 +1,11 @@
+{
+  "name": "Cat_Server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SubramaniamSatyen/Stackschool_2023_Cat_Server.git",
+  "author": "Satyen Subramaniam <66653384+SubramaniamSatyen@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

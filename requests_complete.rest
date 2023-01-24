@@ -1,0 +1,16 @@
+GET http://localhost:8080/status
+
+###
+
+POST http://localhost:8080/feed
+
+###
+
+POST http://localhost:8080/pet
+
+###
+
+POST http://localhost:8080/meow
+
+###
+POST http://localhost:8080/water
