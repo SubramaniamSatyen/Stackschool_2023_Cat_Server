@@ -1,16 +1,21 @@
-GET http://localhost:8080/status
+GET /status HTTP/1.1
+Host: localhost:8080
 
 ###
 
-POST http://localhost:8080/feed
+POST /feed HTTP/1.1
+Host: localhost:8080
 
 ###
 
-POST http://localhost:8080/pet
+POST /pet HTTP/1.1
+Host: localhost:8080
 
 ###
 
-POST http://localhost:8080/meow
+POST /meow HTTP/1.1
+Host: localhost:8080
 
 ###
 POST http://localhost:8080/water
+Host: localhost:8080

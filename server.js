@@ -26,6 +26,7 @@ app.get("/status", (request, response) => {
         "thirst": thirst,
         "action": "Meows and sits down, ready for more pets."
     };
+    eating = false;
 
     response.send(catData);
 })
@@ -37,6 +38,8 @@ app.post('/water', (request, response) => {
         thirst += 1;
         currAction = "Meows and takes a cautious sip.";
     }
+    eating = false;
+
 
     const catData = 
     {
