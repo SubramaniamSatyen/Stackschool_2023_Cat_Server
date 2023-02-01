@@ -17,5 +17,5 @@ POST /meow HTTP/1.1
 Host: localhost:8080
 
 ###
-POST http://localhost:8080/water
+POST /water HTTP/1.1
 Host: localhost:8080
